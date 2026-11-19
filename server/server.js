@@ -5,6 +5,7 @@ require("dotenv").config();
 require("./src/database/schema");
 const feedRoutes = require("./src/routes/feedRoutes");
 const swipeRoutes = require("./src/routes/swipeRoutes");
+const matchesRoutes = require("./src/routes/matchesRoutes");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -13,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/api/feed", feedRoutes);
 app.use("/api/swipe", swipeRoutes);
-
+app.use("/api/matches", matchesRoutes);
 app.get("/", (req, res) => {
   res.json({
     message: "API is running!",
