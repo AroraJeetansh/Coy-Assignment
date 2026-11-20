@@ -1,6 +1,6 @@
 # Swipe Functionality for Coy
 
-A standalone implementation of Coy's swipe-based profile discovery feature, inspired by Bumble and Tinder. Includes a placeholder Home tab and a functional Discover tab.
+A standalone implementation of Coy's swipe-based profile discovery feature, inspired by Bumble and Tinder. Includes a placeholder Home tab, Matches tab and a functional Discover tab.
 
 ## Tech Stack
 - **Frontend:** Next.js, React, TypeScript, Tailwind CSS
@@ -15,6 +15,11 @@ A standalone implementation of Coy's swipe-based profile discovery feature, insp
 - Mutual likes create matches.
 - View confirmed matches.
 - Persist swipes and matches using SQLite.
+
+## Screenshots
+<img width="284" height="631" alt="image" src="https://github.com/user-attachments/assets/57658666-c110-477f-9902-d8e27eecf8a1" />
+<img width="279" height="630" alt="image" src="https://github.com/user-attachments/assets/f4595da7-5d3f-4585-89bc-c4007f60b382" />
+<img width="280" height="629" alt="image" src="https://github.com/user-attachments/assets/1f3d8d22-db36-4d96-9e93-867037ad9b8e" />
 
 ## Getting Started
 
